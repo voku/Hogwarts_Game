@@ -7,7 +7,7 @@ import { LevelThreeMirror } from './components/LevelThreeMirror';
 import { FinalBossDuel } from './components/FinalBossDuel';
 import { HidingGame } from './components/HidingGame';
 import { HogwartsMap } from './components/HogwartsMap';
-import { generateStorySegment } from './services/geminiService';
+import { generateStorySegment } from './services/storyService';
 import { PLAYER_ASSETS } from './services/imageService';
 import { Scroll, Trophy, Wand2, Sparkles, Castle, ArrowRight } from 'lucide-react';
 
@@ -373,6 +373,22 @@ const App: React.FC = () => {
           </div>
         </main>
       </div>
+
+      {/* Footer */}
+      <footer className="mt-12 pb-6 text-center relative z-10">
+        <div className="flex items-center justify-center gap-3 text-hogwarts-parchmentDark/60 text-sm">
+          <span className="h-[1px] w-16 bg-hogwarts-gold/30"></span>
+          <a 
+            href="https://github.com/voku/Hogwarts_Game" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="font-serif italic hover:text-hogwarts-gold transition-colors"
+          >
+            Contribute to this project on GitHub
+          </a>
+          <span className="h-[1px] w-16 bg-hogwarts-gold/30"></span>
+        </div>
+      </footer>
     </div>
   );
 };
