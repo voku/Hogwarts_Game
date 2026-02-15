@@ -1,10 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="Hogwarts Trials Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # Hogwarts Trials
 
 A magical two-player competitive game inspired by Harry Potter and the Philosopher's Stone. Navigate through Hogwarts challenges including Fluffy's lair, flying keys, the Mirror of Erised, and a final boss duel.
+
+## Coding with Kids
+
+<img width="480" height="640" alt="image" src="https://github.com/user-attachments/assets/8c88e0f3-eda6-40ae-a1f8-0ab79fbb76e8" />
+
+Prompt: `Erstelle ein Spiel aus unserer Zeichnung, für zwei Spieler ab 10 Jahre` // https://aistudio.google.com/ 
+
+ ... und ein paar zusätzliche Prompts zusammen mit dem Kind, damit es auf dem Tablet gespielt werden kann. 
+
+PS: lass die Kinder selbst auf Papier zeichnen und schreiben und erweckt dann gemeinsam ihre Fantasie zum Leben :)
 
 ## 🎮 Game Features
 
